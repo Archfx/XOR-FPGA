@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+//This module implements the Sigmoid function in a LUT
 
 module sigmoid(
 	input [7:0] in,

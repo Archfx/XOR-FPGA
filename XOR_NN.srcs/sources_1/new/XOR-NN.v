@@ -66,35 +66,31 @@ wire [7:0] a3_wire;
 
 
 
-assign z2_0 =z2[0][7:0];//[7:0][0*8+:8];
-assign z2_1 =z2[1][7:0];//[1*8+:8];
-assign z2_2 =z2[2][7:0];//[2*8+:8];
+assign z2_0 =z2[0][7:0];
+assign z2_1 =z2[1][7:0];
+assign z2_2 =z2[2][7:0];
 
 
 
 assign z3_wire = z3;
 
 
-	sigmoid Hidden_0(
+	sigmoid Hidden_0( //Hidden layer neurone 0 sigmoid function
 	.in(z2_0),
 	.out(a2_0)
-	
 	);
 	
-	sigmoid Hidden_1(
+	sigmoid Hidden_1( //Hidden layer neurone 1 sigmoid function
 	.in(z2_1),
 	.out(a2_1)
-	
-	
 	);
 	
-	sigmoid Hidden_2(
+	sigmoid Hidden_2( //Hidden layer neurone 2 sigmoid function
 	.in(z2_2),
 	.out(a2_2)
-	
 	);
 	
-	sigmoid Output(
+	sigmoid Output( //output layer neurone  sigmoid function
 	.in(z3_wire),
 	.out(a3_wire)
 	);
@@ -105,6 +101,7 @@ initial begin
     x_0=8'd0;
     x_1=8'd0;
 
+    // Initializing data set features X1 and X2
     X[0][0]= 8'sd0;
     X[0][1]= 8'sd1;
     X[1][0]= 8'sd1;
@@ -114,11 +111,13 @@ initial begin
     X[3][0]= 8'sd1;
     X[3][1]= 8'sd1;
     
+    // Initializing training outputs
     y[0]=1;
     y[1]=1;
     y[2]=0;
     y[3]=0;
-    
+   
+   // Infered weights from python prototype 
     W1[0][0]=8'sd47;
     W1[0][1]=-8'sd61;
     W1[1][0]=-8'sd35;
@@ -138,10 +137,10 @@ initial begin
 
 end
 
-//always @ * begin
-//    x_0[0:0]=x[0:0];
-//    x_1[0:0]=x[1:1];
-//end
+always @ * begin
+    x_0[0:0]=x[0:0];
+    x_1[0:0]=x[1:1];
+end
 
 always @ (posedge clock,posedge predict) begin
 	// Foward propergation
@@ -155,8 +154,8 @@ always @ (posedge clock,posedge predict) begin
 	else begin
         if (en_Hidden) begin
             z2[0]<= (W1[0][0]*x_0)+(W1[0][1]*x_1)+(B1[0]);
-            z2[1]<= (W1[1][0]*x_0)+(W1[0][1]*x_1)+(B1[1]);
-            z2[2]<= (W1[2][0]*x_0)+(W1[0][1]*x_1)+(B1[2]);
+            z2[1]<= (W1[1][0]*x_0)+(W1[1][1]*x_1)+(B1[1]);
+            z2[2]<= (W1[2][0]*x_0)+(W1[2][1]*x_1)+(B1[2]);
             
             en_Hidden_sigmoid<=1;
             en_Hidden <= 0;
@@ -191,8 +190,6 @@ always @ (posedge clock,posedge predict) begin
         if (en_Output_sigmoid) begin
             
             a3<=a3_wire;
-            $display("z3 %d",z3_temp_1);
-            $display("z3 %d",z3_temp_2);
             $display("z3 %d",z3);
             en_Output_sigmoid=0;
         end

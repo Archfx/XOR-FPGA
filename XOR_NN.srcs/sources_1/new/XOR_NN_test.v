@@ -41,7 +41,7 @@ module XOR_NN_test;
 
 	initial begin
 		// Initialize Inputs
-		x = 2'b11;
+		x = 2'b10;
 		clock = 0;
 		predict = 0;
 
