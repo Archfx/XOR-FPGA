@@ -52,6 +52,7 @@ reg en_Hidden;
 reg en_Hidden_sigmoid;
 reg en_Output;
 reg en_Output_sigmoid;
+reg en_Display;
 
 wire [7:0] z2_0;
 wire [7:0] z2_1;
@@ -149,6 +150,7 @@ always @ (posedge clock,posedge predict) begin
        en_Output=0;
        en_Hidden_sigmoid=0;
        en_Output_sigmoid=0;
+       en_Display=0;
        
     end
 	else begin
@@ -192,6 +194,12 @@ always @ (posedge clock,posedge predict) begin
             a3<=a3_wire;
             $display("z3 %d",z3);
             en_Output_sigmoid=0;
+            en_Display=1;
+        end
+        
+        if (en_Display) begin
+            en_Display=0;
+            $display("Final prediction percentage for  1 : %d",a3_wire);
         end
         
 	end
