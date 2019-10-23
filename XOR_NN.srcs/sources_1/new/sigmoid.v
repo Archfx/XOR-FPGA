@@ -1,4 +1,25 @@
 `timescale 1ns / 1ps
+
+//////////////////////////////////////////////////////////////////////////////////
+// Company: ArchFX
+// Engineer: Aruna Jayasena (aruna.15@cse.mrt.ac.lk)
+// 
+// Create Date:    01:23:05 10/02/2019 
+// Design Name:    8bit Sigmoid
+// Module Name:    8bit Sigmoid
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+
 //This module implements the Sigmoid function in a LUT
 
 module sigmoid(
@@ -8,27 +29,6 @@ module sigmoid(
 
 
 always @ * begin
-//    if (in>8'sd49) out<=8'sd100;
-//    else if (in>8'sd39 & in<8'sd50) out<=8'sd98;
-//    else if (in>8'sd34 & in<8'sd40) out<=8'sd98;
-//    else if (in>8'sd29 & in<8'sd35) out<=8'sd95;
-//    else if (in>8'sd24 & in<8'sd30) out<=8'sd92;
-//    else if (in>8'sd19 & in<8'sd25) out<=8'sd88;
-//    else if (in>8'sd14 & in<8'sd20) out<=8'sd81;
-//    else if (in>8'sd9 & in<8'sd15) out<=8'sd73;
-//    else if (in>8'sd4 & in<8'sd10) out<=8'sd62;
-//    else if (in>-8'sd6 & in<8'sd5) out<=8'sd50;
-//    else if (in>-8'sd11 & in<-8'sd5) out<=8'sd26;
-//    else if (in>-8'sd16 & in<-8'sd10) out<=8'sd16;
-//    else if (in>-8'sd21 & in<-8'sd15) out<=8'sd11;
-//    else if (in>-8'sd26 & in<-8'sd20) out<=8'sd7;
-//    else if (in>-8'sd31 & in<-8'sd25) out<=8'sd4;
-//    else if (in>-8'sd36 & in<-8'sd30) out<=8'sd2;
-//    else if (in>-8'sd41 & in<-8'sd35) out<=8'sd1;
-//    else if (in>-8'sd46 & in<-8'sd40) out<=8'sd0;
-//    else if (in>-8'sd51 & in<-8'sd45) out<=8'sd0;
-//    else out<=8'sd0;
-
         case (in)
             -8'sd 127 : out<= 8'sd 0 ;
             -8'sd 126 : out<= 8'sd 0 ;
