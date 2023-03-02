@@ -40,18 +40,18 @@ Based on the weight values 8-bit(signed) was selected as the word length for the
 converted weights are as follows
 ```shell
 W1[0][0] = 47
-W1[0][1] =-61;
-W1[1][0] =- 35;
-W1[1][1] =- 6;
-W1[2][0] = 55;
-W1[2][1] =- 37;
-W2[0] = 75;
-W2[1] =- 44;
-W2[2] =- 66;
-B1[0] =- 23;
-B1[1] = 7;
-B1[2] = 13;
-B2=33;
+W1[0][1] =-61
+W1[1][0] =- 35
+W1[1][1] =- 6
+W1[2][0] = 55
+W1[2][1] =- 37
+W2[0] = 75
+W2[1] =- 44
+W2[2] =- 66
+B1[0] =- 23
+B1[1] = 7
+B1[2] = 13
+B2=33
 ```
 
 Sigmoid Activation Function
