@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="355.295 260.76 957.262 389.008" xmlns="http://www.w3.org/2000/svg">
-  <rect x="355.295" y="260.76" width="957.262" height="389.008" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);"/>
-  <rect x="391.973" y="322.365" width="957.242" height="389.008" style="stroke: rgb(0, 0, 0); opacity: 0.8; fill-opacity: 1; fill: rgb(255, 255, 255);" transform="matrix(1, 0, 0.000051, 1, -36.694004, -61.604691)"/>
+<svg viewBox="355.295 260.76 944.715 389.008" xmlns="http://www.w3.org/2000/svg">
+  <rect x="355.295" y="260.76" width="944.705" height="389.008" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);"/>
+  <rect x="386.835" y="322.365" width="944.695" height="389.008" style="stroke: rgb(0, 0, 0); opacity: 0.8; fill-opacity: 1; fill: rgb(255, 255, 255);" transform="matrix(1, 0, 0.000051, 1, -31.556353, -61.604691)"/>
   <g transform="matrix(2, 0, 0.000103, 2, -676.038879, -299)" style="">
     <path class="link" marker-end="" d="M740,319.5, 920,359.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
     <path class="link" marker-end="" d="M560,302, 740,359.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
