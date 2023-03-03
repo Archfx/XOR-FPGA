@@ -21,8 +21,8 @@ Cool thing in machine learning, you can decide the architecture. So in this case
 
 <!-- ![](images/nn2.svg) -->
 <picture>
-  <source srcset="images/nn2.svg" media="(prefers-color-scheme: dark)">
-  <img src="images/nn2-dark.svg">
+  <source srcset="images/nn2-dark.svg" media="(prefers-color-scheme: dark)">
+  <img src="images/nn2.svg">
 </picture>
 
 Detailed model of the Network
