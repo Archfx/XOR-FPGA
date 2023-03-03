@@ -11,6 +11,8 @@ The architecture of the network
 
 Cool thing in machine learning, you can decide the architecture. So in this case I defined the archtecture as below.
 
+![](images/nn.svg)
+
 - Input Layer Units = 2
 - Hidden Layer Units = 3
 - Output Layer Units = 1
@@ -53,6 +55,7 @@ B1[1] = 7
 B1[2] = 13
 B2=33
 ```
+![](images/nn2.svg)
 
 Sigmoid Activation Function
 ----

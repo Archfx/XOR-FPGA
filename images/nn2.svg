@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="374 285 913.35 343.919" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(2, 0, 0, 2, -676, -299)">
+    <path class="link" marker-end="" d="M740,319.5, 920,359.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
+    <path class="link" marker-end="" d="M560,302, 740,359.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
+    <path class="link" marker-end="" d="M560,417, 740,359.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
+    <path class="link" marker-end="" d="M740,359.5, 920,359.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
+    <path class="link" marker-end="" d="M560,302, 740,399.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
+    <path class="link" marker-end="" d="M560,417, 740,399.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
+    <path class="link" marker-end="" d="M740,399.5, 920,359.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
+    <path class="link" marker-end="" d="M560,302, 740,319.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
+    <path class="link" marker-end="" d="M560,417, 740,319.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(80, 80, 80);"/>
+    <circle r="10" class="node" id="0_0" cx="560" cy="302" style="fill: rgb(255, 255, 255); stroke: rgb(51, 51, 51);"/>
+    <circle r="10" class="node" id="0_1" cx="560" cy="417" style="fill: rgb(255, 255, 255); stroke: rgb(51, 51, 51);"/>
+    <circle r="10" class="node" id="1_0" cx="740" cy="319.5" style="fill: rgb(255, 255, 255); stroke: rgb(51, 51, 51);"/>
+    <text class="text" dy=".35em" x="525" y="457" style="font-size: 12px; white-space: pre;">Input Layer ∈ ℝ²</text>
+    <text class="text" dy=".35em" x="705" y="457" style="font-size: 12px; white-space: pre;">Hidden Layer ∈ ℝ³</text>
+    <circle r="10" class="node" id="1_1" cx="740" cy="359.5" style="fill: rgb(255, 255, 255); stroke: rgb(51, 51, 51);"/>
+    <circle r="10" class="node" id="1_2" cx="740" cy="399.5" style="fill: rgb(255, 255, 255); stroke: rgb(51, 51, 51);"/>
+    <circle r="10" class="node" id="2_0" cx="920" cy="359.5" style="fill: rgb(255, 255, 255); stroke: rgb(51, 51, 51);"/>
+    <text class="text" dy=".35em" x="885" y="457" style="font-size: 12px; white-space: pre;">Output Layer ∈ ℝ¹</text>
+  </g>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="433.348" y="309.979">x0</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="433.113" y="539.515">x1</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="781.368" y="376.209">B1[0]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="781.459" y="457.027">B1[1]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="780.693" y="536.823">B1[2]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="1153.61" y="456.96">B2</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="900.457" y="357.991">W2[0]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="900.133" y="411.638">W2[1]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="899.707" y="462.681">W2[2]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="599.946" y="304.418">W1[0][0]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="600.743" y="351.026">W1[1][0]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="500.355" y="390.05">W1[2][0]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="499.743" y="460.364">W1[0][1]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="629.622" y="494.223">W1[1][1]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="637.282" y="538.5">W[2][1]</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="768.765" y="571.971">Sigmoid</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.3px;" x="1135.456" y="569.199">Sigmoid</text>
+</svg>
