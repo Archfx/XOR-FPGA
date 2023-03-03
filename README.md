@@ -11,7 +11,7 @@ The architecture of the network
 
 Cool thing in machine learning, you can decide the architecture. So in this case I defined the archtecture as below.
 
-![](images/nn.svg)
+
 
 - Input Layer Units = 2
 - Hidden Layer Units = 3
@@ -19,7 +19,7 @@ Cool thing in machine learning, you can decide the architecture. So in this case
 - No. of hidden layers = 1
 - Learning Algorithm : Back-propagation
 
-
+![](images/nn2.svg)
 
 Detailed model of the Network
 -----
@@ -54,7 +54,6 @@ B1[1] = 7
 B1[2] = 13
 B2=33
 ```
-![](images/nn2.svg)
 
 Sigmoid Activation Function
 ----
