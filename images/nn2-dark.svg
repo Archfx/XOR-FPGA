@@ -13,18 +13,18 @@
     <path class="link" marker-end="" d="M740,399.5, 920,359.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(255, 255, 255);"/>
     <path class="link" marker-end="" d="M560,302, 740,319.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(255, 255, 255);"/>
     <path class="link" marker-end="" d="M560,417, 740,319.5" style="stroke-width: 0.5; stroke-opacity: 1; stroke: rgb(255, 255, 255);"/>
-    <circle r="10" class="node" id="0_0" cx="560" cy="302" style="fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200);"/>
-    <circle r="10" class="node" id="0_1" cx="560" cy="417" style="fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200);"/>
-    <circle r="10" class="node" id="1_0" cx="740" cy="319.5" style="fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200);"/>
+    <circle r="10" class="node" id="0_0" cx="560" cy="302" style="stroke: rgb(200, 200, 200);"/>
+    <circle r="10" class="node" id="0_1" cx="560" cy="417" style="stroke: rgb(200, 200, 200);"/>
+    <circle r="10" class="node" id="1_0" cx="740" cy="319.5" style="stroke: rgb(200, 200, 200);"/>
     <text class="text" dy=".35em" x="525" y="457" style="font-size: 12px; white-space: pre; fill: rgb(200, 200, 200);">Input Layer ∈ ℝ²</text>
     <text class="text" dy=".35em" x="705" y="457" style="font-size: 12px; white-space: pre; fill: rgb(200, 200, 200);">Hidden Layer ∈ ℝ³</text>
-    <circle r="10" class="node" id="1_1" cx="740" cy="359.5" style="fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200);"/>
-    <circle r="10" class="node" id="1_2" cx="740" cy="399.5" style="fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200);"/>
-    <circle r="10" class="node" id="2_0" cx="920" cy="359.5" style="fill: rgb(255, 255, 255); stroke: rgb(200, 200, 200);"/>
+    <circle r="10" class="node" id="1_1" cx="740" cy="359.5" style="stroke: rgb(200, 200, 200);"/>
+    <circle r="10" class="node" id="1_2" cx="740" cy="399.5" style="stroke: rgb(200, 200, 200);"/>
+    <circle r="10" class="node" id="2_0" cx="920" cy="359.5" style="stroke: rgb(200, 200, 200);"/>
     <text class="text" dy=".35em" x="885" y="457" style="font-size: 12px; white-space: pre; fill: rgb(200, 200, 200);">Output Layer ∈ ℝ¹</text>
   </g>
-  <text style="white-space: pre; fill: rgb(55, 55, 55); font-family: Arial, sans-serif; font-size: 19.3px;" x="433.348" y="309.979" transform="matrix(1, 0, 0.000051, 1, -0.02351, 0)">x0</text>
-  <text style="white-space: pre; fill: rgb(55, 55, 55); font-family: Arial, sans-serif; font-size: 19.3px;" x="433.113" y="539.515" transform="matrix(1, 0, 0.000051, 1, -0.02351, 0)">x1</text>
+  <text style="white-space: pre; fill: rgb(200, 200, 200); font-family: Arial, sans-serif; font-size: 19.3px;" x="433.348" y="309.979" transform="matrix(1, 0, 0.000051, 1, -0.02351, 0)">x0</text>
+  <text style="white-space: pre; fill: rgb(200, 200, 200); font-family: Arial, sans-serif; font-size: 19.3px;" x="433.113" y="539.515" transform="matrix(1, 0, 0.000051, 1, -0.02351, 0)">x1</text>
   <text style="white-space: pre; fill: rgb(200, 200, 200); font-family: Arial, sans-serif; font-size: 19.3px;" x="781.368" y="376.209" transform="matrix(1, 0, 0.000051, 1, -0.02351, 0)">B1[0]</text>
   <text style="white-space: pre; fill: rgb(200, 200, 200); font-family: Arial, sans-serif; font-size: 19.3px;" x="781.459" y="457.027" transform="matrix(1, 0, 0.000051, 1, -0.02351, 0)">B1[1]</text>
   <text style="white-space: pre; fill: rgb(200, 200, 200); font-family: Arial, sans-serif; font-size: 19.3px;" x="780.693" y="536.823" transform="matrix(1, 0, 0.000051, 1, -0.02351, 0)">B1[2]</text>
