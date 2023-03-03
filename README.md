@@ -19,7 +19,10 @@ Cool thing in machine learning, you can decide the architecture. So in this case
 - No. of hidden layers = 1
 - Learning Algorithm : Back-propagation
 
-![](images/nn2.svg)
+<!-- ![](images/nn2.svg) -->
+  <source srcset="images/nn2-dark.svg" media="(prefers-color-scheme: dark)">
+  <img src="images/nn2.svg">
+</picture>
 
 Detailed model of the Network
 -----
