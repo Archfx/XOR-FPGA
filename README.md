@@ -20,7 +20,6 @@ Cool thing in machine learning, you can decide the architecture. So in this case
 - Learning Algorithm : Back-propagation
 
 
-![](https://miro.medium.com/max/701/1*ZebFhBNXB8x7B5kYvMloCQ.png)
 
 Detailed model of the Network
 -----
