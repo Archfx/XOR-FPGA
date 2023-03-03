@@ -24,9 +24,9 @@ Cool thing in machine learning, you can decide the architecture. So in this case
 Detailed model of the Network
 -----
 
-Using python the Network was created and trained. You can find the src [here](nn/XOR-Net-Notebook.ipynb). After the 50000th iteration, the accuracy was at an acceptable level. Then the weights were saved and the model was created using raw python arrays to directly port the algorithm into Verilog.
+First, I have created a simple Neural network using python. Then, I have trained it so that we have an inference model. You can find the src [here](nn/XOR-Net-Notebook.ipynb). After the 50000th iteration, the accuracy was at an acceptable level. Then the weights were saved and the model was created using raw python arrays to directly port the algorithm into Verilog.
 
-Python tuned weights were as follows
+Python tuned weights
 ----
 
 ```shell
@@ -36,7 +36,7 @@ B1 = [-2.32319703,0.72576663,1.32843545]
 B2 = [3.38932348]
 ```
 
-Based on the weight values 8-bit(signed) was selected as the word length for the Hardware architecture. all the weights were multiplied by 10 in order to convert them between 127 to -128. (Multiplying this by 8 will increase the accuracy further)
+Based on the weight values, I have selected selected 8-bit(signed) as the word length for the hardware architecture. all the weights were multiplied by 10 in order to convert them between 127 to -128. (Multiplying this by 8 will increase the accuracy further)
 
 converted weights are as follows
 ```shell
@@ -58,8 +58,8 @@ B2=33
 Sigmoid Activation Function
 ----
 
-Since we cannot implement the Sigmoid function on Hardware directly a lookup table was used instead of using the Sigmoid function. Sigmoid function outputs values between 1 and 0. But for the hardware implementation, Sigmoid functions had to scale from 100 to 0. So that values fit in the range of 8-bit signed values (Max 127 and min -128). A python script was created to generate the required mapping of the Sigmoid function.
-Final accuracy on FPGA
+Since we cannot implement the Sigmoid function on Hardware directly a lookup table was used instead of using the Sigmoid function. Sigmoid function outputs values between 1 and 0. But for the hardware implementation, Sigmoid functions had to scale from 100 to 0. So that values fit in the range of 8-bit signed values (Max 127 and min -128). A python script was created to generate the required mapping of the Sigmoid function. Alternativly, you can simple implement a Sigmoid type functions using just comparators. But for generalized use case I have used a lookup table here.
+
 
 Final accuracy on FPGA
 ------
@@ -73,4 +73,4 @@ Final accuracy on FPGA
 
 With the 8-bit word size and a slight modification to the mathematical model of the neural network, this hardware implementation can be done.
 
-It is fascinating and I had fun combining complex mathematical models with fundamental logic circuits.
+It is fascinating and I had fun combining complex mathematical models with fundamental logic circuits. Source files related to this simple experiment can be found from [here](https://github.com/Archfx/XOR-FPGA).
